@@ -1,0 +1,12 @@
+{
+  "name": "message-to-sha256",
+  "version": "1.0.0",
+  "description": "Takes a message and returns its SHA-256 hash!",
+  "main": "index.js",
+  "author": "Jake Diamond",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

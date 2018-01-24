@@ -1,0 +1,13 @@
+---
+version: '3'
+services:
+  message-to-sha256:
+    build: ./app
+    ports:
+      - 5000:5000
+    restart: on-failure
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "7"
